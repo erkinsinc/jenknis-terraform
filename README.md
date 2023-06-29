@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jenkins
 
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/jenkins)](https://artifacthub.io/packages/helm/jenkinsci/jenkins)
@@ -1108,3 +1109,6 @@ Error: Deployment.apps "jenkins" is invalid: spec.selector: Invalid value: v1.La
 ```
 
 In order to upgrade, [uninstall](#uninstall-chart) the Jenkins Deployment before upgrading:
+=======
+# jenknis-terraform
+>>>>>>> eb824b6f1a7791d81763a8c9b4ddc08d9115288e
