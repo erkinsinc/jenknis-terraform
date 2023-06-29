@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: terraform
+  name: terraform
+spec:
+  containers:
+  - command:
+    - sleep 
+    - "3600"
+    image: hashicorp/terraform
+    name: terraform
+
